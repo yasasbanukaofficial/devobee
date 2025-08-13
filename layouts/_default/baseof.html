@@ -9,9 +9,20 @@
 <body>
     <div class="container">
         {{ partial "header" . }}
+        <div class="body">
+            <div class="author-container">
+                <img src="https://avatars.githubusercontent.com/u/170727401?v=4" alt="author-image" class="author-image">
+                <div class="author-details">
+                    <a href="https://github.com/yasasbanukaofficial" class="author-name">Yasas Banu</a>
+                    <p class="author-description">A developer who, creates solutions to problems but, this place is made to distribute info.</p>
+                </div>
+            </div>
+        </div>
+        <label>Recent Posts</label>
         {{ block "main" . }}
         
         {{ end }}
+        
         {{ partial "footer" . }}
     </div>
 </body>
