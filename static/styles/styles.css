@@ -19,8 +19,7 @@ a {
 }
 
 .container {
-    background-color: blue;
-    max-width: 65vw~;
+    max-width: 65vw;
     margin: auto;
     min-height: 100vh;
     display: flex;
