@@ -1,0 +1,19 @@
+:root{
+    --bg: black;
+    --soft-bg: darkGrey;
+    --text: white;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: white;
+}
+
+a {
+    color: inherit;
+}
