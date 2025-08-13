@@ -1,37 +1,37 @@
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 6.5vh;
-    align-items: center;
-    border-bottom: 1px solid black;
+
+
+@media (max-width: 1536px) {
+    .header{
+        font-size: 0.5rem;
+    }
 }
 
-
-.logo {
-    font-weight: bold;
-    font-size: 1.3rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+@media (max-width: 1366px) {
+    .container{
+        max-width: 1280px;
+    }
 }
 
-.links{
-    display: flex;
-    align-items: center;
-    gap: 2.5vw;
-    font-weight: normal;
-    font-size: 0.9rem;
+@media (max-width: 1280px) {
+    .container{
+        max-width: 1024px;
+    }
 }
 
-.search-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 2vw;
-    align-items: center;
-    text-align: center;
+@media (max-width: 1024px) {
+    .container{
+        max-width: 768px;
+    }
 }
 
-.search-btn {
-    width: 1.7vw;
-    margin-bottom: 0.5vh;
+@media (max-width: 768px) {
+    .container{
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container{
+        max-width: 475px;
+    }
 }
