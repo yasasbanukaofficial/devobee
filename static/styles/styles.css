@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root{
     --bg: white;
     --soft-bg: darkGrey;
@@ -12,7 +15,7 @@
 body {
     background-color: var(--bg);
     color: var(--text);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -84,17 +87,17 @@ a {
     height: fit-content;
     min-height: 20vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 3vh;
     align-items: center;
-    text-align: start;
+    text-align: center;
 }
 
 .author-details{
     display: flex;
     flex-direction: column;
     gap: 1vh;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .author-image {
@@ -103,14 +106,16 @@ a {
 }
 
 .author-name{
-    font-size: 1.4rem;
-    font-weight: bold;
+    font-size: 1.7rem;
+    color: #0d122b;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
 }
 
 .author-description {
     font-size: 1rem;
     opacity: 0.7;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 /* End of Main Page Styles */
 
