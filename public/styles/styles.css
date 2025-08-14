@@ -31,7 +31,7 @@ a {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 4vh;
 }
 
 /* Header Styles */
@@ -76,7 +76,7 @@ a {
 /* End of Navbar Styles */
 
 /* Main Page Styles */
-.body {
+.topSection {
     display: flex;
     flex-direction: column;
 }
@@ -90,6 +90,8 @@ a {
     gap: 2vh;
     align-items: center;
     text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 6vh;
 }
 
 .author-details{
@@ -120,6 +122,16 @@ a {
 
 .recent-posts {
     font-size: 1.2rem;
+}
+
+.bottomSection{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.listContainer{
+    flex: 1;
 }
 /* End of Main Page Styles */
 

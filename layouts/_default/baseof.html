@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         {{ partial "header" . }}
-        <div class="body">
+        <div class="topSection">
             <div class="author-container">
                 <img src="https://avatars.githubusercontent.com/u/170727401?v=4" alt="author-image" class="author-image">
                 <div class="author-details">
@@ -19,11 +19,16 @@
             </div>
         </div>
         <label class="recent-posts">Recent Posts</label>
-        {{ block "main" . }}
+        <div class="bottomSection">
+            <div class="listContainer">
+                {{ block "main" . }}
         
-        {{ end }}
-        
-        {{ partial "footer" . }}
+                {{ end }}
+            </div>
+            <div class="footerContainer"> 
+                {{ partial "footer" . }}
+            </div>
+        </div>
     </div>
 </body>
 </html>
