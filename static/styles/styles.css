@@ -31,7 +31,7 @@ a {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 3vh;
+    justify-content: space-between;
 }
 
 /* Header Styles */
@@ -79,8 +79,6 @@ a {
 .body {
     display: flex;
     flex-direction: column;
-    margin-bottom: 4vh;
-    margin-top: 5vh;
 }
 
 .author-container{
@@ -121,9 +119,32 @@ a {
 }
 
 .recent-posts {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 /* End of Main Page Styles */
+
+/* Footer Styles */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    font-size: 1rem;
+}
+
+div img {
+    max-width: 1.5rem;
+}
+
+.socialLinks{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+/* End of Footer Styles */
 
 
 @media (max-width: 1536px) {
