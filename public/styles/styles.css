@@ -84,7 +84,7 @@ a {
 .author-container{
     width: 100%;
     height: fit-content;
-    min-height: 20vh;
+    min-height: 10vh;
     display: flex;
     flex-direction: column;
     gap: 2vh;
@@ -191,17 +191,22 @@ div img {
 
 @media (max-width: 475px) {
     .container{
-        max-width: 360px;
+        max-width: 400px;
         padding-left: 3vw;
         padding-right: 3vw;
     }
 
     .logo{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
+    .author-name{
+        font-size: 1.5rem;
+    }
+
+
     .links{
-        font-size: 0.65rem;
+        font-size: 0.8rem;
         gap: 3vw;
     }
 }
@@ -211,6 +216,10 @@ div img {
         max-width: 275px;
         padding-left: 3vw;
         padding-right: 3vw;
+    }
+
+    .author-details {
+        width: 80vw;
     }
 
     .logo{

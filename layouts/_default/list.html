@@ -1,5 +1,9 @@
 {{ define "main" }}
 <div class="list">
-    Lists
+    {{ range .Paginator.Pages }}
+        <div class="listItem">
+            
+        </div>        
+    {{ end }}
 </div>    
 {{ end }}
