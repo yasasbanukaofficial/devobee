@@ -55,7 +55,7 @@ a {
 .links{
     display: flex;
     align-items: center;
-    gap: 2.5vw;
+    gap: 1.5vw;
     font-weight: normal;
     font-size: 0.9rem;
 }
@@ -229,10 +229,14 @@ div img {
         font-size: 1.5rem;
     }
 
-
     .links{
         font-size: 0.8rem;
-        gap: 3vw;
+        gap: 4vw;
+    }
+
+
+    .socialLinks{
+        gap: 1.5vw;
     }
 }
 
