@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
 
 :root {
   --bg: white;
@@ -180,6 +183,9 @@ div img {
   display: flex;
   flex-direction: column;
   gap: 1vh;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 3vh;
+  border-bottom: 1px solid lightgray;
 }
 
 .postCategories {
@@ -204,16 +210,16 @@ div img {
   margin-top: 2vh;
 }
 
+.otherDetailsContainer {
+  display: flex;
+  gap: 3vh;
+}
+
 .authorImage {
   border-radius: 2rem;
   width: 3rem;
   height: auto;
   max-width: 100%;
-}
-
-.otherDetailsContainer {
-  display: flex;
-  gap: 3vh;
 }
 
 .infoContainer {
@@ -230,6 +236,17 @@ time {
   font-style: italic;
   font-size: 0.9rem;
 }
+
+.postContent {
+  font-size: 1rem;
+  line-height: 2.5rem;
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Merriweather", sans-serif;
+  text-align: justify;
+}
+
 /* End of Single Styles */
 
 @media (max-width: 1536px) {
@@ -296,6 +313,25 @@ time {
 
   .socialLinks {
     gap: 1.5vw;
+  }
+
+  .otherDetailsSection {
+    display: flex;
+    align-items: center;
+    gap: 3.5vw;
+    margin-top: 3vh;
+  }
+
+  .otherDetailsContainer {
+    display: flex;
+    gap: 3vh;
+  }
+
+  .authorImage {
+    border-radius: 2rem;
+    width: 2.5rem;
+    height: auto;
+    max-width: 100%;
   }
 }
 
