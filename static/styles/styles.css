@@ -4,7 +4,7 @@
 :root {
   --bg: white;
   --soft-bg: darkGrey;
-  --dark-bg: rgb(39, 39, 39);
+  --dark-bg: rgb(28, 28, 28);
   --text: black;
   --text-white: white;
 }
@@ -186,6 +186,7 @@ div img {
   display: flex;
   flex-direction: row;
   gap: 0.5vw;
+  align-items: center;
 }
 
 .postSingleCategory {
@@ -193,10 +194,42 @@ div img {
   border-radius: 0.5rem;
   background-color: var(--dark-bg);
   font-size: 0.9rem;
-  font-weight: bold;
   color: var(--text-white);
 }
 
+.otherDetailsSection {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 2vh;
+}
+
+.authorImage {
+  border-radius: 2rem;
+  width: 3rem;
+  height: auto;
+  max-width: 100%;
+}
+
+.otherDetailsContainer {
+  display: flex;
+  gap: 3vh;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vh;
+}
+
+.authorName {
+  font-size: 1rem;
+}
+
+time {
+  font-style: italic;
+  font-size: 0.9rem;
+}
 /* End of Single Styles */
 
 @media (max-width: 1536px) {

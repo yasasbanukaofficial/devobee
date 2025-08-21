@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
     <title>Devobee</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        {{ partial "header" . }}
-        <div class="topSection">
-            <div class="author-container">
-                <img src="https://avatars.githubusercontent.com/u/170727401?v=4" alt="author-image" class="author-image">
-                <div class="author-details">
-                    <a href="https://github.com/yasasbanukaofficial" class="author-name">Yasas Banu</a>
-                    <p class="author-description">A developer who creates solutions to problems, but devobee is made to share knowledge. <strong> devobee by Yasas Banu.</strong></p>
-                </div>
-            </div>
+      {{ partial "header" . }}
+      <div class="topSection">
+        <div class="author-container">
+          <img
+            src="https://avatars.githubusercontent.com/u/170727401?v=4"
+            alt="author-image"
+            class="author-image"
+          />
+          <div class="author-details">
+            <a href="https://github.com/yasasbanukaofficial" class="author-name"
+              >Yasas Banu</a
+            >
+            <p class="author-description">
+              A developer who creates solutions to problems, but devobee is made
+              to share knowledge. <strong> devobee by Yasas Banu.</strong>
+            </p>
+          </div>
         </div>
-        <label class="recent-posts">Recent Posts</label>
-        <div class="bottomSection">
-            <div class="listContainer">
-                {{ block "main" . }}
-        
-                {{ end }}
-            </div>
-            <div class="footerContainer"> 
-                {{ partial "footer" . }}
-            </div>
-        </div>
+      </div>
+      <label class="recent-posts">Recent Posts</label>
+      <div class="listSection">
+        <div class="listContainer">{{ block "main" . }} {{ end }}</div>
+      </div>
+      <div class="footerContainer">{{ partial "footer" . }}</div>
     </div>
-</body>
+  </body>
 </html>
