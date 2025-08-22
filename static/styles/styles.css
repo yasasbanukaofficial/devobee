@@ -189,7 +189,7 @@ div img {
 }
 
 .postDescription {
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   text-align: left;
 }
 
@@ -249,7 +249,7 @@ time {
 
 .postContent {
   font-size: 1rem;
-  line-height: 2.5rem;
+  line-height: 2.2rem;
   margin-top: 7vh;
   display: flex;
   flex-direction: column;
