@@ -188,6 +188,16 @@ div img {
   border-bottom: 1px solid lightgray;
 }
 
+.postDescription {
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.postTitle {
+  line-height: 2.5rem;
+  text-align: left;
+}
+
 .postCategories {
   display: flex;
   flex-direction: row;
@@ -312,7 +322,22 @@ time {
   }
 
   .socialLinks {
-    gap: 1.5vw;
+    gap: 2vw;
+  }
+
+  .postDetails {
+    gap: 1.5vh;
+  }
+
+  .postTitle {
+    line-height: 2.5rem;
+    text-align: left;
+    font-size: 1.7rem;
+  }
+
+  .postDescription {
+    line-height: 1.6rem;
+    text-align: left;
   }
 
   .otherDetailsSection {
