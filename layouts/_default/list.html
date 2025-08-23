@@ -5,6 +5,6 @@
     <a href="{{.Permalink}}">{{.Params.title}}</a>
     <label for="post-date">{{ dateFormat .Site.Params.dateFormat .Date}}</label>
   </div>
-  {{ end }}
+  {{ end }} {{ template "_internal/pagination.html" . }}
 </div>
 {{ end }}
