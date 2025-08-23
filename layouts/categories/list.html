@@ -1,0 +1,15 @@
+{{ define "main" }} {{if eq .RelPermalink "/categories/"}} {{ range
+$.Site.Taxonomies.categories.ByCount }}
+<a href="/categories/{{ .Name }}">
+  <div class="categoryTags"># {{ .Name }} <small>({{.Count}})</small></div>
+</a>
+{{end}} {{else}}
+<div class="list">
+  {{ range .Paginator.Pages }}
+  <div class="listItem">
+    <a href="{{.Permalink}}">{{.Params.title}}</a>
+    <label for="post-date">{{ dateFormat .Site.Params.dateFormat .Date}}</label>
+  </div>
+  {{ end }}
+</div>
+{{ end }} {{ end }}

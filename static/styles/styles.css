@@ -259,6 +259,21 @@ time {
 
 /* End of Single Styles */
 
+/* Category list styles */
+
+.categoryTags {
+  display: inline-block;
+  justify-content: center;
+  background-color: var(--dark-bg);
+  color: var(--text-white);
+  padding: 0.8vh 0.5vw;
+  width: fit-content;
+  border-radius: 0.5rem;
+  margin-right: 1vw;
+}
+
+/* End of cateogry list styles */
+
 @media (max-width: 1536px) {
   .container {
     max-width: 1366px;
