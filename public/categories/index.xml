@@ -2,32 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Devobee</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://example.org/categories/</link>
     <description>Recent content in Categories on Devobee</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Aug 2025 22:50:53 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Coding</title>
-      <link>http://localhost:1313/categories/coding/</link>
-      <pubDate>Thu, 14 Aug 2025 22:50:53 +0530</pubDate>
-      <guid>http://localhost:1313/categories/coding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>General</title>
-      <link>http://localhost:1313/categories/general/</link>
-      <pubDate>Thu, 14 Aug 2025 22:50:53 +0530</pubDate>
-      <guid>http://localhost:1313/categories/general/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>http://localhost:1313/categories/programming/</link>
-      <pubDate>Thu, 14 Aug 2025 22:50:53 +0530</pubDate>
-      <guid>http://localhost:1313/categories/programming/</guid>
-      <description></description>
-    </item>
+    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
