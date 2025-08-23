@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- prettier-ignore -->
+    <meta name="description" content={{ or .Params.description .Site.Params.description }}>
     <link rel="stylesheet" href="/styles/styles.css" />
-    <title>Devobee</title>
+    <title>{{.Title}}</title>
   </head>
   <body>
     <div class="container">
@@ -22,7 +24,8 @@
             >
             <p class="author-description">
               A developer who creates solutions to problems, but devobee is made
-              to share knowledge. <strong> devobee by Yasas Banu.</strong>
+              to share knowledge.
+              <strong> devobee by Yasas Banu.</strong>
             </p>
           </div>
         </div>
