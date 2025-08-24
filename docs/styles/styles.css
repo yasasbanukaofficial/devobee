@@ -272,6 +272,19 @@ time {
   margin-right: 1vw;
 }
 
+.categoryLists {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  margin-top: 3vh;
+}
+
+.categorySingleList {
+  font-style: italic;
+  font-size: 1rem;
+  padding-top: 1vh;
+}
+
 /* End of cateogry list styles */
 
 /* Paginator Styles */
