@@ -1,15 +1,13 @@
-{{ define "main" }} {{if eq .RelPermalink "/categories/"}} {{ range
-$.Site.Taxonomies.categories.ByCount }}
-<a href="{{ .Site.BaseURL }}/categories/{{ .Name }}">
+{{ define "main" }} {{ range $.Site.Taxonomies.categories.ByCount }}
+<a href="{{.Page.Permalink}}">
   <div class="categoryTags"># {{ .Name }} <small>({{.Count}})</small></div>
 </a>
-{{end}} {{else}}
-<div class="list">
+{{else}} {{end}}
+<div class="categoryLists">
   {{ range .Paginator.Pages }}
-  <div class="listItem">
+  <div class="categorySingleList">
     <a href="{{.Permalink}}">{{.Params.title}}</a>
-    <label for="post-date">{{ dateFormat .Site.Params.dateFormat .Date}}</label>
   </div>
   {{ end }}
 </div>
-{{ end }} {{ end }}
+{{ end }}
